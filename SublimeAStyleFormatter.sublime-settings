@@ -1,0 +1,54 @@
+{
+   "options_default": {
+       "style": "kr", //JPS
+       "indent": "spaces",
+        "indent-spaces": 4,
+        "indent-classes": false,
+        "indent-switches": false,
+        "indent-cases": false,
+        "indent-namespaces": false,
+        "indent-labels": false,
+        "indent-preprocessor": true,
+        "indent-col1-comments": true,
+        "min-conditional-indent": 2,
+        "max-instatement-indent": 40,
+        "break-blocks": "",
+        "pad-oper": true,
+        "pad-paren": false,
+        "pad-paren-out": false,
+        "pad-paren-in": true, //JPS
+        "pad-header": true,
+        "unpad-paren": false,
+        "delete-empty-lines": false,
+        "fill-empty-lines": false,
+        "break-closing-brackets": true, //JPS
+        "break-elseifs": false,
+        "add-brackets": true,  //JPS
+        "add-one-line-brackets": false,
+        "keep-one-line-blocks": true,
+        "keep-one-line-statements": true,
+        "convert-tabs": true,
+        "align-pointer": "name",
+        "align-reference": "name"
+    },
+
+    "options_c": {
+        "use_only_additional_options": false,
+        "additional_options": []
+    },
+
+    "options_c++": {
+        "use_only_additional_options": false,
+        "additional_options": []
+    },
+
+    "options_java": {
+        "use_only_additional_options": false,
+        "additional_options": []
+    },
+
+    "options_cs": {
+        "use_only_additional_options": false,
+        "additional_options": []
+    }
+}

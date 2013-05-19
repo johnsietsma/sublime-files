@@ -1,0 +1,53 @@
+{
+    "windows": {
+        "cmd": [
+            "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
+            "${project_path}\\\\${project_base_name}.sln"
+        ],
+        "working_dir": "${project_path:${folder}}",
+        "file_regex": "^[ \\t]+(.*cs)\\(([0-9]+),([0-9]+)\\): error"
+    },
+    "osx": {
+        "cmd": [
+            "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
+            "/p:Configuration=Release",
+            "${project_path}/${project_base_name}.sln"
+        ],
+        "working_dir": "${project_path:${folder}}",
+        "file_regex": "^[ \\t]+(.*\\.cs)\\(([0-9]+),([0-9]+)\\): (error|warning)"
+     },
+    "variants": [
+        {
+            "name": "Clean",
+            "windows": {
+                "cmd": [
+                    "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
+                    "${project_path}\\\\${project_base_name}.sln",
+                    "/target:Clean"
+                ]
+            },
+            "osx": {
+                "cmd": [
+                    "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
+                    "${project_path}/${project_base_name}.sln",
+                    "/target:Clean"
+                    ]
+            }
+        },
+        {
+            "name": "Test",
+            "windows": {
+                "cmd": [
+                    "nunit-console",
+                    "${project_path}\\\\bin\\\\Debug\\\\${project_base_name}.dll"
+                ]
+            },
+            "osx": {
+                "cmd": [
+                    "nunit-console",
+                    "${project_path}/bin/Debug/${project_base_name}.dll"
+                ]
+            }
+        }
+    ]
+}

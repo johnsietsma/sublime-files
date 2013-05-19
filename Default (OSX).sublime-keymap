@@ -1,0 +1,6 @@
+[
+    { "keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace"} },
+    { "keys": ["super+shift+w"], "command": "close_all" },
+    { "keys": ["super+b"], "command": "build", "args": {"target_build": "Debug"} },
+    { "keys": ["super+shift+b"], "command": "build", "args": {"target_build": "Release"} }
+]

@@ -1,0 +1,15 @@
+{
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"font_face": "Source Code Pro",
+	"font_size": 10.0,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Lua Dev"
+	],
+	"open_files_in_new_window": false,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true
+}
