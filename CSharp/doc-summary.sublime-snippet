@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+/// <summary>
+/// ${1:text}
+/// </summary>
+]]></content>
+    <tabTrigger>doc-summ</tabTrigger>
+    <scope>source.cs</scope>
+</snippet>

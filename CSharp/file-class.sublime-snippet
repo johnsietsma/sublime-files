@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+namespace ArmelloEngine
+{
+
+public class ${1:class-name}
+{
+}
+
+}
+]]></content>
+    <tabTrigger>file-cs.class</tabTrigger>
+    <scope>source.cs</scope>
+</snippet>

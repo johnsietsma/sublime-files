@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<param name="${1:name}">${2:text}</param>]]></content>
+    <tabTrigger>doc-param</tabTrigger>
+    <scope>source.cs</scope>
+</snippet>

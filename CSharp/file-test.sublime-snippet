@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+namespace ArmelloEngine.Tests
+{
+using NUnit.Framework;
+
+[TestFixture]
+public class Test${1:file-name}
+{
+    [Test]
+    public void Test${2:test-name}()
+    {
+
+    }
+}
+}
+]]></content>
+    <tabTrigger>file-cs.test</tabTrigger>
+    <scope>source.cs</scope>
+</snippet>
