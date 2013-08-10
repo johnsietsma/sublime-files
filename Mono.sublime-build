@@ -9,8 +9,8 @@
     },
     "osx": {
         "cmd": [
-            "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
-            "/p:Configuration=Release",
+            "/Applications/Unity/Unity.app/Contents/Frameworks/Mono/bin/xbuild",
+            //"/p:Configuration=Release",
             "${project_path}/${project_base_name}.sln"
         ],
         "working_dir": "${project_path:${folder}}",
@@ -23,14 +23,14 @@
                 "cmd": [
                     "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
                     "${project_path}\\\\${project_base_name}.sln",
-                    "/target:Clean"
+                    "/t:Clean"
                 ]
             },
             "osx": {
                 "cmd": [
-                    "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
+                    "//Applications/Unity/Unity.app/Contents/Frameworks/Mono/bin/xbuild",
                     "${project_path}/${project_base_name}.sln",
-                    "/target:Clean"
+                    "/t:Clean"
                     ]
             }
         },
